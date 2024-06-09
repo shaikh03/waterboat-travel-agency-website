@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: #1089ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+}
+
+.bar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+img {
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%; /* Adjust the width as needed */
+    margin-left: 20px;
+}
+
+.booking-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.booking-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.booking-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-info label {
+    margin-bottom: 10px;
+}
+
+.booking-info input,
+.booking-info select,
+.booking-info button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-info button {
+    background-color: #1089ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.booking-info button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1089ff;
+    color: white;
+}
